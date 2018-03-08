@@ -1,0 +1,106 @@
+@charset "utf-8";
+@import url(base.css);
+@import url(reset.css);
+@import url(common.css);
+
+/*메인 페이지 CSS*/
+
+#cont{/*메인 컨텐츠*/
+    position: absolute;
+    top: 70px;
+    left: 0;
+/*	background-color: #e8e8e8;*/
+}
+#cont>ul{/*메인 컨텐츠를 담고 있는 박스*/
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+/*    padding-top: 30px;*/
+/*    outline: 1px solid yellow;*/
+}
+li.pjtbox{/*프로젝트 각각의 박스*/
+    padding: 2%;
+/*
+    width: 800px;
+    height: 350px; 
+*/
+    width: 46%;
+    height: 350px;
+/*    outline: 1px solid red;*/
+    
+}
+.pjtbox>a>ul{/*각 박스별 속박스*/
+/*    outline: 1px solid blue;*/
+/*    position: relative;*/
+    width: 100%;
+    height: 100%;
+    border: 1px solid #6b6b6b;
+    box-sizing: border-box;
+}
+.pjtimg{/*프로젝트 이미지박스*/
+    position: relative;/*부모 역할*/
+    width: 60%;
+    height: 100%;
+    background-color: #6b6b6b;
+    overflow: hidden;
+}
+.pjtimg>img{/*프로젝트 이미지*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);/*이미지 가로세로가운데 정렬*/
+    height: 100%;
+}
+li.pjtdesc{/*프로젝트 제목 및 내용*/
+    width: 40%;
+    height: 100%;
+    color: #6b6b6b;
+/*    background-color: yellowgreen;*/
+}
+.pjtdesc>header{/*제목*/
+    margin: 10% 5%;
+/*    outline: 1px solid purple;*/
+}
+.pjtdesc>section{/*내용*/
+    margin: 10% 5%;
+    height: 65%;
+/*    outline: 1px solid purple;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

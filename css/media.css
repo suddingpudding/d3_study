@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/*반응형 미디어 쿼리*/
+
+
+/*1600px 모니터 사이즈 미디어쿼리*/
+@media only screen and (max-width:1600px){
+    article{/*상세페이지 박스 사이즈 줄이기*/
+        width: 60%;
+    }
+    
+}/*media*/
+
+
+/*1024px 태블릿 사이즈 미디어쿼리*/
+@media only screen and (max-width:1024px){
+    
+    li.pjtbox{/*프로젝트 각각의 박스*/
+        width: 100%;
+/*        background-color: yellow;*/
+    }
+    
+    
+    
+
+    #sidebar{/*상세페이지 사이드 메뉴바 숨기기*/
+        display: none;
+    }
+    article{/*상세페이지 박스 및 여백사이즈 줄이기*/
+        width: 70%;
+        margin-left: 50px;
+    } 
+    
+    
+    
+}/*media*/
+
+
+/*500px 태블릿 사이즈 미디어쿼리*/
+@media only screen and (max-width:500px){
+    #basic{/*기본 로고 숨기기*/
+        display: none;
+    } 
+    #phone{/*폰용 로고 보이기*/
+        display: block;
+    }
+    ul#navibar>li:first-child{/*로고 박스*/
+        width: 70px;
+    }
+    #navibar>li:first-child>a{/*로고 공통*/
+        margin-left: 22px;
+/*        display: block;*/
+/*        outline: 1px solid orange;*/
+    }
+    
+    
+
+
+    .pjtimg{/*프로젝트 이미지박스*/
+/*    	background-color: #e8e8e8;*/
+        width: 100%;
+        z-index: -2;
+    }
+    .pjtimg>img{/*프로젝트 이미지*/
+        top: 0%;
+        left: 50%;
+        transform: translate(-50%);/*이미지 가로가운데 정렬*/
+    }
+    .pjtdesc::before{
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: #666;
+        opacity: 0.6; 
+        z-index: -1;
+    }
+    li.pjtdesc{/*프로젝트 제목 및 내용*/
+        position: relative;
+/*        top: 0%;*/
+        top: -50%;
+        width: 100%;
+        height: 50%;
+        color: #aaa;
+    }
+    .pjtdesc>header{/*제목*/
+        margin: 2% 5%;
+        color: #ddd;
+        
+    /*    outline: 1px solid purple;*/
+    }
+    .pjtdesc>section{/*내용*/
+        margin: 6%;
+    }
+    
+   
+    article{/*상세페이지 박스 및 여백사이즈 줄이기*/
+        width: 80%;
+        margin-left: 30px;
+    } 
+    
+    article>div{
+        width: 350px;
+    }
+    
+}/*media*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

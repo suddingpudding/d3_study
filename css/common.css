@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+/* 공통 CSS, 네비바*/
+
+
+
+
+/*상단 탑네비바 메뉴*/
+#mainnav{/*네비바*/
+/*    position: fixed;*/
+/*    top: 0px;*/
+/*    left: 0px;*/
+    width: 100%;
+    height: 70px;
+/*    outline: 1px solid red;*/
+}
+ul#navibar{
+/*    position: relative;*/
+    height: 100%;
+    background-color: #497ccf;
+}
+#navibar>li:first-child{/*로고 박스*/
+/*    position: relative;*/
+    width: 280px;
+/*    width: 14.7%;*/
+    background-color: #2e61b4;
+}
+#navibar>li:first-child>a{/*로고*/
+/*    position: absolute;*/
+/*    right: 5px;*/
+/*    margin: 0 70px;*/
+    margin-left: 70px;
+    color: #e8e8e8;
+    font-size: 50px;
+/*    font-size: 4em;*/
+    line-height: 70px;
+/*    outline: 1px solid orange;*/
+}
+#phone{/*폰용 로고 숨기기*/
+    display: none;
+}
+#navibar>li:last-child{/*설명 및 메뉴*/
+/*
+    position: relative;
+    left: 0px;
+*/
+/*    width: 85.3%;*/
+    font-size: 27px;
+    color: #202020;
+    line-height: 70px;
+/*    outline: 1px solid red;*/
+}
+
+
+
+
+
+
+
+/*detail 페이지 네비바 메뉴CSS*/
+
+#contbox{
+    position: relative;/*부모 자격*/
+    width: 100%;
+/*    height: 100%;*/
+}
+#sidebar{/*메뉴네비바 배경*/
+    position: absolute;
+    width: 280px;
+    height: 100%;
+    background-color: #222;
+    color: #bbb;
+}
+#menu{/*메뉴*/
+    position: fixed;/*스크롤 내리면 같이 메뉴가 따라 내려가게*/
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 60px;
+/*    padding-top: 30px;*/
+    text-align: right;
+/*    outline: 1px solid red;*/
+}
+#menu li{/*li 전체*/
+    float: none;
+}
+.bigtit{/*큰제목*/
+    font-size: 40px;
+/*    font-weight: normal;*/
+}
+.smalltit{/*작은제목*/
+    margin-top: 40px;
+    font-size: 35px;
+}
+.detailmenu>li{
+/*    margin: 7px;*/
+    padding: 4px;
+}
+.detailmenu>li>a{
+    font-size: 20px;
+    display: block;
+    width: 100%;
+/*    outline: 1px solid yellow;*/
+}
+
+
+
+
+
+
+
+
+
+
+

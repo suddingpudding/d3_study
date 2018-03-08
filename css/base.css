@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/* 기본설정 셋팅 CSS*/
+
+
+@font-face{/*나눔스퀘어체*/
+    font-family:'NanumSquare';/*내가 지은 이름*/
+    src:url(../fonts/NanumSquare.eot) format("eot"), 
+        url(../fonts/NanumSquare.woff) format("woff"), 
+        url(../fonts/NanumSquare.ttf) format("ttf");
+}
+
+html,body{
+    width: 100%; 
+    height: 100%;
+}
+
+body{
+    font: 16px "NanumSquare",Gulim;
+    color: #999;
+	font-size: 16px;
+/*    background-color: #497ccf;*/
+    background-color: #e8e8e8;
+	overflow-x: hidden;/*가로 스크롤 없앰*/
+}
+
+img{
+    vertical-align: bottom;/*하단 간극 없앰*/
+/*	display: block;*//*이것도 하단 간극 없앰 둘 중에 하나만 택일해서 쓸것*/
+}
+
+a{
+    text-decoration: none;
+    color: #999;
+}
